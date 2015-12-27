@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8C76EF401C2DBC7E00F3AD57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C76EF3F1C2DBC7E00F3AD57 /* main.cpp */; };
+		8C76EF4A1C2DBD9E00F3AD57 /* avl-tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C76EF491C2DBD9E00F3AD57 /* avl-tree.cpp */; };
+		8C76EF4D1C2F43B200F3AD57 /* plain-tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C76EF4C1C2F43B200F3AD57 /* plain-tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		8C76EF3C1C2DBC7E00F3AD57 /* tree-visualizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tree-visualizer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C76EF3F1C2DBC7E00F3AD57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C76EF481C2DBCEE00F3AD57 /* avl-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "avl-tree.h"; sourceTree = "<group>"; };
+		8C76EF491C2DBD9E00F3AD57 /* avl-tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "avl-tree.cpp"; sourceTree = "<group>"; };
+		8C76EF4B1C2F42ED00F3AD57 /* plain-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "plain-tree.h"; path = "../plain-tree.h"; sourceTree = "<group>"; };
+		8C76EF4C1C2F43B200F3AD57 /* plain-tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "plain-tree.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		8C76EF3E1C2DBC7E00F3AD57 /* tree-visualizer */ = {
 			isa = PBXGroup;
 			children = (
+				8C76EF4B1C2F42ED00F3AD57 /* plain-tree.h */,
+				8C76EF491C2DBD9E00F3AD57 /* avl-tree.cpp */,
+				8C76EF4C1C2F43B200F3AD57 /* plain-tree.cpp */,
 				8C76EF3F1C2DBC7E00F3AD57 /* main.cpp */,
+				8C76EF481C2DBCEE00F3AD57 /* avl-tree.h */,
 			);
 			path = "tree-visualizer";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C76EF401C2DBC7E00F3AD57 /* main.cpp in Sources */,
+				8C76EF4A1C2DBD9E00F3AD57 /* avl-tree.cpp in Sources */,
+				8C76EF4D1C2F43B200F3AD57 /* plain-tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
