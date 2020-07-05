@@ -63,21 +63,6 @@ node *BSTree::binary_index_unchecked(int level, unsigned index) const
     return curr == nullNode? nullptr : curr; // note: this has to be fixed -- obviously it's not unchecked if it's still using a conditional
 }
 
-//class unbalanced_exception{};
-
-/*void in_order_bf(node* curr)
- {
- if (curr == nullNode) return;
- 
- in_order_bf(curr->left);
- int leftHt=0, rightHt=0;
- if(curr->left) leftHt = curr->left->ht;
- if(curr->right) rightHt = curr->right->ht;
- std::cout << curr->val << "(BF=" << leftHt -rightHt << ") ";
- if (abs(leftHt-rightHt) > 1) throw unbalanced_exception();
- in_order_bf(curr->right);
- }
- */
 void BSTree::level_order(std::ostream & os) const
 {
     for (int level = 0; level < root->ht; level++) {
